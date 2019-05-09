@@ -12,7 +12,7 @@ $ docker-compose up -d
 
 ## 使用
 
-在`项目`的所有集成页面找到`DingDing`插件，启用，并设置`Access Token`
+在`项目`的所有集成页面找到`TrDing`插件，启用，并设置`Access Token`
 
 ![plugin](https://github.com/qsz/sentry-dingding/blob/master/docs/images/options.png)
 
