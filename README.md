@@ -1,11 +1,14 @@
-# Sentry-DingDing
+# Sentry-tr-DingDing
 
-`Sentry`的`钉钉`通知插件
+`Sentry`的`钉钉`通知插件, 基于docker部署的Sentry（forked from anshengme/sentry-dingding ）
 
 ## 安装
 
-```bash
-$ pip install sentry-dingding
+```vim Dockerfile，加上
+$ RUN pip install git+https://github.com/qsz/sentry-dingding.git
+$ docker-compose build --no-cache
+$ docker-compose build --no-cache
+$ docker-compose up -d
 ```
 
 ## 使用
