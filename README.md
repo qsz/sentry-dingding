@@ -5,8 +5,7 @@
 ## 安装
 
 ```
-$ vim Dockerfile，加上 RUN pip install git+https://github.com/qsz/sentry-dingding.git
-$ docker-compose build --no-cache
+$ 进入sentry项目文件夹，vim Dockerfile，加上 RUN pip install git+https://github.com/qsz/sentry-dingding.git
 $ docker-compose build --no-cache
 $ docker-compose up -d
 ```
